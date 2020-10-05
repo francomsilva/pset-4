@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Exercise7 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Side : ");
+        int side = input.nextInt();
+
+        double height = side * Math.sin((60 * Math.PI) / 180);
+        double areaOfTriangle = (side * height) * .5;
+        double area = areaOfTriangle * 6;
+        int perimeter =  side * 6;
+
+        System.out.printf("\nArea      : %,.2f", area);
+        System.out.printf("\nPerimeter : %,.2f", (double) perimeter);
+    }
+}
