@@ -9,7 +9,8 @@ public class Exercise5 {
         double area = Math.PI * (Math.pow(0.5 * diameter, 2));
         double circumference = Math.PI * diameter;
 
-        System.out.printf("\nArea          : %,.2f", area);
-        System.out.printf("\nCircumference :%,.2f", circumference);
+        System.out.printf("\nArea            : %,.2f%n", area);
+        System.out.printf("\nCircumference :%,.2f%n", circumference);
+        input.close();
     }
 }

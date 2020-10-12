@@ -13,5 +13,6 @@ public class Exercise10 {
         System.out.println("Length : " + cityLength);
         System.out.println("Upper  : " + cityUppercase);
         System.out.println("Lower  : " + cityLowercase);
+        input.close();
     }
 }

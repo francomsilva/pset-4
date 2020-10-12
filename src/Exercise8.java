@@ -13,5 +13,6 @@ public class Exercise8 {
         String front = capitalizedText.substring(divide);
 
         System.out.println("\n" + front + back + ".");
+        input.close();
     }
 }

@@ -12,8 +12,9 @@ public class Exercise4 {
         int meters = afterKilometers / 100;
         int afterMeters = afterKilometers % 100;
 
-        System.out.println("\nKilometers:  " + kilometers);
-        System.out.println("Meters:  " + meters);
-        System.out.println("Centimeters:  " + afterMeters);
+        System.out.println("\nKilometers  : " + kilometers);
+        System.out.println("Meters      : " + meters);
+        System.out.println("Centimeters : " + afterMeters);
+        input.close();
     }
 }

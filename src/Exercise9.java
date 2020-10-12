@@ -15,5 +15,6 @@ public class Exercise9 {
         String lastInitial = lastName.substring(0,1).toUpperCase();
 
         System.out.println("\n" + firstInitial + middleInitial + lastInitial + ".");
+        input.close();
     }
 }
